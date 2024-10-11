@@ -14,7 +14,7 @@ const Landing = () => {
         <br></br>
         <Offer />
         <Registration />
-        <Founder />
+        {/* <Founder /> */}
     </div>
   )
 }
