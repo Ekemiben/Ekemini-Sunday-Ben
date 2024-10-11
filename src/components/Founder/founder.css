@@ -1,0 +1,70 @@
+.reg-container{
+
+}
+.founder-reg-container{
+    width: 100vw;
+    height: 70vh;
+    margin-top: 300px;
+}
+.founder-reg-title{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        width: 60%;
+        justify-content: center;
+        border: 2px solid red;
+}
+.founder-reg-title p{
+    display: flex;
+    align-self: center;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: justify;
+}
+.founder-reg-title div  span{
+    font-size:16px;
+    line-height: 28px;
+    text-align: justify;
+}
+.founder-horizontal-line-container{
+    position: relative;
+    width: 100%;
+}
+.founder-horizontal-line-container img{
+    width: 100%;
+}
+.founder-horizontal-line-container .img-potrat img{
+    position: absolute;
+    width: 100%;
+    top:-60px;
+}
+.founder-reg-btn{
+    display: flex;
+    margin: auto;
+    width: 30%;
+    justify-content: center;
+    justify-items: center;
+    
+}
+.founder-reg-btn button{
+    border-radius: 50px;
+    padding: 10px 40px;
+    background: #fff;
+    color: #9524FF;
+    font-family: 'Montserrat';
+    font-size: 24px;
+    font-weight: 600;
+    line-height: .8px;
+    height: 75px;
+    width: 300px;
+    
+    border: 1px solid #9524FF;  
+}
+.founder-horizontal-line-container .reg-btn button svg{
+    position: absolute;
+    color: #9524FF;
+    margin-left: 16px;
+    margin-top: -15px;
+    font-size: 30px;
+}
